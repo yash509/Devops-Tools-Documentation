@@ -1,0 +1,38 @@
+# deployment.yaml
+# ingress.yaml
+# services.yaml
+.history
+.*
+*.tfstate
+*.tfvars
+*.tfstate.*
+*.lock.*
+Terraform_Azure/Ubuntu_VM/.terraform
+Terraform_Azure/Windows_VM/.terraform
+.terraform
+gcp-credentials.json
+
+*.pem
+
+*.rdp
+
+.vagrant
+
+
+__pycache__
+
+.env
+
+*.sqlite3
+
+token.txt
+kubectl
+k10primer.yaml
+ns.json
+
+node_modules
+package*.json
+
+index.ts
+tsconfig.json
+*.zip
