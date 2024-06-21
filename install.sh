@@ -1,5 +1,9 @@
 #Install Java
+<<<<<<< HEAD
 echo "--------------------Installing Java--------------------"
+=======
+echo "----------------------Installing Java--------------------"
+>>>>>>> origin/main
 sudo apt-get update -y
 sudo apt upgrade -y 
 sudo apt-get install openjdk-8-jdk -y
@@ -15,7 +19,11 @@ echo "--------------------Installing Pip--------------------"
 sudo apt-get update -y
 sudo apt-get install python3-pip -y 
 #Install Jenkins 
+<<<<<<< HEAD
 echo "--------------------Installing Jenkins-by aml-------------------"
+=======
+echo "--------------------Installing Jenkins--------------------"
+>>>>>>> origin/main
 sudo apt -y install wget
 sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
