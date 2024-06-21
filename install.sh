@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt upgrade -y 
 sudo apt-get install openjdk-8-jdk -y
 #Install Python
-echo "--------------------Installing Python--------------------"
+echo "----------------by johnDev----Installing Python--------------------"
 sudo apt-get update -y
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
