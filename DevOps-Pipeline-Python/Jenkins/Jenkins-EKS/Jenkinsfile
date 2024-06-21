@@ -12,7 +12,7 @@ pipeline {
               accessKeyVariable: 'AWS_ACCESS_KEY_ID',
               secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
               ]]) {
-              sh "eksctl create cluster --name python2-cluster --region eu-central-1 --nodes-min=3"
+              sh "eksctl create cluster --name python-cluster --region us-east-1 --nodes-min=3"
             }
         }
       }
@@ -27,7 +27,7 @@ pipeline {
               secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
               ]]) {
               sh """
-              aws eks update-kubeconfig --name python2-cluster
+              aws eks update-kubeconfig --name python-cluster
               """
             }
         }
@@ -42,7 +42,7 @@ pipeline {
               accessKeyVariable: 'AWS_ACCESS_KEY_ID',
               secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
               ]]) {
-              sh "kubectl create namespace python2-app"
+              sh "kubectl create namespace python-app"
             }
         }
       }
