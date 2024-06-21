@@ -14,7 +14,7 @@ pipeline {
                   accessKeyVariable: 'AWS_ACCESS_KEY_ID',
                   secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
                   ]]) {
-                  sh "eksctl delete cluster --name python-cluster --region eu-central-1"
+                  sh "eksctl delete cluster --name python-cluster --region us-east-1"
                 }
               }  
             }

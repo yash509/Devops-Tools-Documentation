@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: survey-app
-        image: triple3a/survey-app-img:latest
+        image: aml286/survey-app-img:latest
         ports:
         - containerPort: 8000
