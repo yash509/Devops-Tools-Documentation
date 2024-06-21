@@ -1,9 +1,6 @@
-#Install Java
-<<<<<<< HEAD
-echo "--------------------Installing Java--------------------"
-=======
-echo "----------------------Installing Java--------------------"
->>>>>>> origin/main
+
+echo "----------------------Installing Java-------------------"
+
 sudo apt-get update -y
 sudo apt upgrade -y 
 sudo apt-get install openjdk-8-jdk -y
